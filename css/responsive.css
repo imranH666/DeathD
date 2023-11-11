@@ -1,0 +1,220 @@
+@media (max-width: 575.98px){    /* For small potrait */
+    .nav-main{
+        padding-top: 20px;
+    }
+    .test {
+        top: -50px;
+        left: 0;
+    }
+    .test img {
+        width: 70px;
+    }
+    .test-text {
+        top: 0;
+        left: 0;
+    }
+    .test-text h3 {
+        font-size: 25px;
+    }
+    .test-text p {
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .nav-icon i {
+        border: 1px solid #fff;
+        padding: 7px 10px;
+    }
+    .bbb-btn {
+        padding: 7px 10px;
+        border: 1px solid #fff;
+        margin-right: 10px;
+    }
+      .bbb-btn:hover {
+        border: 1px solid transparent;
+    }
+
+    .ban-main h1 {
+        font-size: 40px;
+        padding-top: 150px;
+    }
+    .ban-main p {
+        padding: 0 10px;
+    }
+    .b-btn a {
+        border: 1px solid #fff;
+        padding: 7px 10px;
+        margin-top: 30px;
+        font-size: 13px;
+    }
+    .login-box {
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        border: 2px solid rgba(255,255,255,0.5);
+        border-radius: 20px;
+        padding: 20px 0;
+    }
+
+    #about {
+        padding: 40px 0;
+    }
+    .aabout-main {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .about-items {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* feedback part css start */
+    #feedback {
+        padding: 30px 0;
+    }
+    .style-feed {
+        height: 350px;
+    }
+    .feed-main {
+        margin-top: 40px;
+    }
+    .feed-text img {
+        width: 80px;
+        height: 80px;
+    }
+    .feed-text h4 {
+        font-size: 15px;
+        padding: 0 20px;
+        color: rgb(0, 47, 255);
+    }
+    .about-prev, .about-next {
+        transform: scale(.60);
+        -webkit-transform: scale(.60);
+        -moz-transform: scale(.60);
+        -ms-transform: scale(.60);
+        -o-transform: scale(.60);
+    }
+    .feed-menu ul li i {
+        padding: 10px;
+        width: 40px;
+    }
+
+    /* fevorite part css start */
+    #place {
+        padding: 30px 0 10px 0;
+    }
+    .place1, .place2, .place3, .place4, .place5, .place6, .place7, .place8, .place9, .place10, .place11, .place12 {
+        width: 100%;
+    }
+    .place-s {
+        height: 150px;
+    }
+    .place-s img {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .place-menu ul li i {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .fevorite_place_details {
+        padding: 20px 30px 0 20px;
+    }
+
+    /* portfolio part css end */
+    #portfolio {
+        padding: 20px 0;
+    }
+    .portfolio-container {
+        margin-top: 40px;
+    }
+    .portfolio-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 20px 0 0 0;
+        color: #fff;
+        background: url(../images/ban3.jpg) no-repeat center / cover;
+        animation: feedanim 15s linear infinite;
+      }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){    /* For small landscape */
+    .test-text h3 {
+        font-size: 35px;
+    }
+    .test-text p {
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .ban-main h1 {
+        font-size: 40px;
+        padding-top: 250px;
+    }
+    .ban-main p {
+        padding: 0 10px;
+    }
+    .b-btn a {
+        border: 1px solid #fff;
+        padding: 7px 10px;
+        margin-top: 30px;
+        font-size: 13px;
+    }
+
+    .login-box {
+        top: 50px;
+        left: 10%;
+        background-color: transparent;
+        border: 2px solid rgba(255,255,255,0.5);
+        border-radius: 20px;
+        padding: 20px 0;
+    }
+    .aabout-main {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    .about-items {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+
+    .place1, .place2, .place3, .place4, .place5, .place6, .place7, .place8, .place9, .place10, .place11, .place12 {
+        width: 100%;
+    }
+    .place-s {
+        height: 250px;
+    }
+    .place-s img {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .portfolio-item {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){    /* For mediam tablet */
+    .place1, .place2, .place3, .place4, .place5, .place6, .place7, .place8, .place9, .place10, .place11, .place12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+}
+
+@media (min-width: 1400px){ 
+}
